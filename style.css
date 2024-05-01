@@ -9,7 +9,7 @@
 
 body {
   display: flex;
-  align-items: center;
+  align-items: center;  
   justify-content: center;
   min-height: 100vh;
   background-color: black;
@@ -18,7 +18,7 @@ body {
 .container {
   background-color: white;
   color: black;
-  width: 400px;
+  width: 400px;    
   min-height: 300px;
   border-radius: 10px;
   box-shadow: inset 5px 5px 10px rgba(0, 0, 0, 0.3),
