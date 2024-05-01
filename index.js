@@ -30,8 +30,8 @@ function decrease(){
         countEl.style.color = "black";
     }
 }
-function reset(){
-    counts=0;
-    countEl.innerHTML = counts;
-    countEl.style.color = "black";
+function reset(){     
+    counts=0;    
+    countEl.innerHTML = counts;   
+    countEl.style.color = "black";     
 }
