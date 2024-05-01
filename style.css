@@ -31,7 +31,7 @@ body {
 
 h1 {
   margin-bottom: 10px;
-  text-transform: uppercase;
+  text-transform: uppercase; 
   color: blueviolet;
 }
 
@@ -41,7 +41,7 @@ h1 {
 
 .counters {
   display: flex;
-  justify-content: center;
+  justify-content: center; 
   align-items: center;
   gap: 140px;
 }
@@ -49,7 +49,7 @@ h1 {
 .btn {
   color: white;
   padding: 10px 20px;
-  outline: none;
+  outline: none; 
   border: 1px solid black;
   background-color: blueviolet;
   box-shadow: 4px 4px 0px black;
@@ -57,7 +57,7 @@ h1 {
 }
 
 .btn:active {
-  position: relative;
+  position: relative; 
   top: 4px;
   left: 4px;
   box-shadow: none;
@@ -67,7 +67,7 @@ h1 {
   color: white;
   background-color: black;
   padding: 3px 10px;
-  outline: none;
+  outline: none; 
   border: none;
   cursor: pointer;
 }
