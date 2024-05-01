@@ -20,11 +20,11 @@ function increase(){
         countEl.style.color = "black"; 
     }
 }
-function decrease(){
+function decrease(){ 
     counts--;
     countEl.innerHTML = counts;
-    if(counts<0){
-        countEl.style.color = "red";
+    if(counts<0){ 
+        countEl.style.color = "red"; 
     }
     if(counts==0){
         countEl.style.color = "black";
