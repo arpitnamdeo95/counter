@@ -10,14 +10,14 @@ prevEl.addEventListener("click",decrease);
 nextEl.addEventListener("click",increase);
 resetEl.addEventListener("click",reset);
 
-function increase(){
+function increase(){ 
     counts++;
-    countEl.innerHTML = counts;
+    countEl.innerHTML = counts; 
     if(counts>0){
         countEl.style.color = "green";
-    }
-    if(counts==0){
-        countEl.style.color = "black";
+    } 
+    if(counts==0){ 
+        countEl.style.color = "black"; 
     }
 }
 function decrease(){
